@@ -18,6 +18,7 @@
 
 /*여기 이후부터 쓰시면 돼요!*/
 
+/*target1*/
 .main{
     position: relative;
 }
@@ -27,7 +28,7 @@
 .t-title p{
     font-size: 40px;
 }
-.t-title span{
+.t-title-b{
     padding: 5px 10px 5px 10px;
     background-color: #88A2FF;
     border-radius: 10px;
@@ -53,4 +54,59 @@
 .buttonmain img {
     width:110px;
     margin-top:10px;
+}
+
+/*target2*/
+.target-box{
+    width:350px;
+    height: 520px;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: #DCE4FF;
+    margin-top:10px;
+    padding:30px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 4px 1px #7a83a1a1;
+    font-size: 20px;
+}
+.target-1{
+    margin-bottom: 20px;
+}
+.target-1-text{
+    width:285px;
+    height:50px;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 3px 3px 3px 1px #7a83a1a1 inset;
+    padding-top:5px;
+    padding-left:15px;
+    padding-right:15px;
+    color:#33437A;
+    font-size: 18px;
+}
+.target-2-text{
+    width: 285px;
+    height: 200px;
+    overflow-x: hidden;
+    border-radius: 20px;
+    border:none;
+    box-shadow: 3px 3px 3px 1px #7a83a1a1 inset;
+    padding-top:15px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 18px;
+}
+::placeholder{
+    color:#8d99c4
+}
+.next-btn button{
+    margin-top: 40px;
+    width:100px;
+    height: 50px;
+    background-color: #88A2FF;
+    border-radius: 15px;
+    border:none;
+    color:white;
+    font-size: 23px;
+    box-shadow: 3px 3px 3px 1px #7a83a1a1;
 }
