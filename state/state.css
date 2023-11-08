@@ -56,12 +56,13 @@
     border-radius: 60px;
     box-shadow: 3px 3px 3px 2px #444b65a1;
     color:#515c84;
+    background-color: white;
 }
 
 
 .s-content{
     width:350px;
-    height: 300px;
+    height: 180px;
     margin-left:auto;
     margin-right: auto;
     background-color: #A6BAFF;
@@ -77,8 +78,21 @@
     padding-left:25px;
 }
 .s-day{
-    padding-left:150px;
+    padding-left:130px;
     color:#6270a4
+}
+.percent{
+    width:300px;
+    height:25px;
+    background-color: white;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+.s-s-title{
+    font-size: 15px;
+    margin-left: 30px;
+    margin-bottom: -10px;
 }
 
 
